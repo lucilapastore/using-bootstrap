@@ -1,5 +1,4 @@
-# Using Bootstrap
-# [Solo Project]
+# Using Bootstrap [Solo Project]
 
 This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
