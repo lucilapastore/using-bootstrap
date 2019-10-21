@@ -230,6 +230,7 @@ table {
 
 .tarjeta {
   padding-bottom: 20px;
+  border: none;
 }
 
 .titulo-tarjeta {
@@ -259,6 +260,10 @@ table {
 }
 
 /* second column */
+
+.tarjeta2 {
+  border: none;
+}
 
 .titulo-tarjeta2 {
   font-size: 22px;
@@ -305,4 +310,14 @@ table {
 .gray-card-text {
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+/* third column */
+
+/* opinion column */
+
+.opinion-author {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 4px;
 }
