@@ -253,6 +253,17 @@ table {
   height: 228.67px;
 }
 
+.category {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  position: absolute;
+  top: 45%;
+  left: 0.5px;
+  border-radius: 0;
+  width: 30%;
+}
 .texto-tarjeta {
   font-size: 15px;
   line-height: 20px;
