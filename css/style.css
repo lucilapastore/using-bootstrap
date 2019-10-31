@@ -218,31 +218,23 @@ table {
 
 /* cards */
 
-.tarjeta {
-  padding-bottom: 20px;
-}
-
-.titulo-tarjeta {
+.title-first-card {
   font-size: 22px;
   line-height: 24px;
   color: #000;
   font-family: 'Roboto Condensed', sans-serif;
   width: 98%;
-  height: 48px;
   margin-bottom: 10px;
 }
 
-.titulo-tarjeta:hover,
+.title-first-card:hover,
 .titulo-tarjeta2:hover,
-.opinion-title a:hover {
+.opinion-title a:hover,
+.more-stories-title:hover {
   text-decoration: underline;
   text-decoration-color: red;
+  cursor: pointer;
 }
-
-/* .foto-tarjeta {
-  width: 100%;
-  height: 228.67px;
-} */
 
 .category {
   font-size: 17px;
@@ -265,7 +257,11 @@ table {
   top: 160px;
 }
 
-.texto-tarjeta {
+.ubication7 {
+  top: 140px;
+}
+
+.text-first-card {
   font-size: 15px;
   line-height: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -273,7 +269,12 @@ table {
 
 /* second column */
 
-.titulo-tarjeta2 {
+.column-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title-card-2 {
   font-size: 22px;
   line-height: 24px;
   color: #000;
@@ -288,7 +289,29 @@ table {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.more-stories-container {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.more-stories-title {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.more-stories-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 /* gray container section */
+
+.gray-container-card {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .gray-container-title {
   padding: 10px;
@@ -316,11 +339,16 @@ table {
 /* opinion column */
 
 .opinion-container {
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .opinion-title a {
   color: #000;
+}
+
+.latest-news-pic img {
+  padding-right: 15px;
 }
 
 .opinion-author {
@@ -334,4 +362,40 @@ table {
 .latest-news-item {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.latest-news-text {
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+/* sponsored card */
+
+.sponsored-card {
+  margin-bottom: 30px;
+}
+/* jumbotron */
+
+.cont-jumbotron {
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 20px;
+}
+.title-jumbotron {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 19px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.button-text {
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.link-jumbotron {
+  color: #333;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
 }
