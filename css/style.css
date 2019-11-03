@@ -293,6 +293,7 @@ table {
   padding-top: 14px;
   padding-bottom: 14px;
 }
+
 .more-stories-title {
   color: black;
   margin-bottom: 10px;
@@ -374,6 +375,7 @@ table {
 .sponsored-card {
   margin-bottom: 30px;
 }
+
 /* jumbotron */
 
 .cont-jumbotron {
@@ -381,6 +383,7 @@ table {
   margin: 0 auto 30px;
   padding: 20px;
 }
+
 .title-jumbotron {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 19px;
@@ -398,4 +401,37 @@ table {
   color: #333;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 15px;
+}
+
+/* editor's pick */
+.editor-pick,
+.slideshows {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 19px;
+}
+
+.title-row {
+  color: #f72210;
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title-row:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f72210;
+}
+
+.title-card {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.info {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
 }
