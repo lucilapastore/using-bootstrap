@@ -182,9 +182,16 @@ table {
   height: 56px;
 }
 
-.header-bottom a {
+.item-header {
   font-size: 21px;
   line-height: 24px;
+  color: black;
+}
+
+.item-header:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f72210;
 }
 
 .form-row {
@@ -228,12 +235,13 @@ table {
 }
 
 .title-first-card:hover,
-.titulo-tarjeta2:hover,
-.opinion-title a:hover,
-.more-stories-title:hover {
+.title-card-2:hover,
+.more-stories-title:hover,
+.title-card:hover {
   text-decoration: underline;
   text-decoration-color: red;
   cursor: pointer;
+  color: #000;
 }
 
 .category {
@@ -314,6 +322,10 @@ table {
   padding-left: 10px;
 }
 
+.gray-container-card:hover {
+  cursor: pointer;
+}
+
 .gray-container-title {
   padding: 10px;
   font-size: 16px;
@@ -333,6 +345,10 @@ table {
 .gray-card-text {
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+.category-badge:hover {
+  background-color: #272727;
 }
 
 /* third column */
@@ -404,6 +420,7 @@ table {
 }
 
 /* editor's pick */
+
 .editor-pick,
 .slideshows {
   font-family: "Roboto Condensed", sans-serif;
@@ -417,7 +434,10 @@ table {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.title-row:hover {
+.title-row:hover,
+.info:hover,
+.latest-news-text:hover,
+.opinion-title a:hover {
   cursor: pointer;
   text-decoration: none;
   color: #f72210;
@@ -434,4 +454,18 @@ table {
   font-size: 17px;
   font-family: "Roboto Condensed", sans-serif;
   color: black;
+}
+
+/* featured slideshows */
+
+.sticker-number {
+  position: absolute;
+  top: 54%;
+  right: 79%;
+}
+
+.sticker-number-down {
+  position: absolute;
+  top: 55%;
+  right: 79%
 }
