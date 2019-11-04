@@ -233,7 +233,7 @@ img:hover {
 .column-title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 /* cards */
@@ -428,6 +428,7 @@ img:hover {
   color: black;
   font-size: 18px;
 }
+
 /* editor's pick */
 
 .editor-pick,
@@ -476,5 +477,16 @@ img:hover {
 .sticker-number-down {
   position: absolute;
   top: 55%;
-  right: 79%
+  right: 79%;
+}
+
+/* bottom section */
+
+.red-button {
+  background-color: #f72210;
+  font-size: 18px;
+}
+
+.red-button:hover {
+  cursor: pointer;
 }
