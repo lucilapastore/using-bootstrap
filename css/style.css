@@ -415,6 +415,7 @@ img:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
 /* in the magazine section */
 
 .gray-category {
@@ -482,6 +483,17 @@ img:hover {
 
 /* bottom section */
 
+/* jumbotron */
+
+.suscribe-text {
+  font-size: 16px;
+  color: #f72210;
+}
+
+.title-jumbo-2 {
+ font-size: 24px;
+}
+
 .red-button {
   background-color: #f72210;
   font-size: 18px;
@@ -489,4 +501,12 @@ img:hover {
 
 .red-button:hover {
   cursor: pointer;
+}
+
+/* card */
+
+.bottom-card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
 }
