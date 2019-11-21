@@ -9,6 +9,10 @@ body {
 
 /* nav */
 
+.navbar-brand {
+  max-width: 396px;
+}
+
 .first-nav {
   background-color: #f72210;
   max-height: 95px;
@@ -381,7 +385,7 @@ body {
 
 .copyright-bottom {
   font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
+  color: #666;
   font-size: 12px;
   margin-bottom: 12px;
 }
@@ -394,5 +398,11 @@ body {
   margin: 6px 10px 6px 0;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
+  color: #666;
+}
+
+@media screen and (max-width: 960px) {
+  .header-bottom {
+    display: hidden;
+  }
 }
