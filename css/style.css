@@ -49,7 +49,7 @@ body {
 .header-bottom {
   max-width: 1310px;
   background-color: #fff;
-  padding: 15px 160px 15px 18px;
+  padding: 15px 110px 15px 18px;
   border-bottom: #f4f5f6 2px solid;
   z-index: 1;
   text-align: center;
@@ -71,6 +71,10 @@ body {
 .form-row {
   width: 60px;
   height: 54px;
+}
+
+.first-search {
+  width: 55px;
 }
 
 /* main container */
