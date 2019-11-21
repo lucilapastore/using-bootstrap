@@ -372,3 +372,12 @@ body {
   line-height: 20px;
   font-size: 15px;
 }
+
+/* footer */
+
+.footer-link {
+  margin: 6px 10px 6px 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
