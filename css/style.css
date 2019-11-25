@@ -308,15 +308,6 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.title-row:hover,
-.info:hover,
-.latest-news-text:hover,
-.opinion-title a:hover {
-  cursor: pointer;
-  text-decoration: none;
-  color: #f72210;
-}
-
 .title-card {
   font-size: 22px;
   line-height: 22px;
@@ -347,6 +338,15 @@ body {
   text-decoration-color: red;
   cursor: pointer;
   color: #000;
+}
+
+.title-row:hover,
+.info:hover,
+.latest-news-text:hover,
+.opinion-title a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f72210;
 }
 
 /* bottom section */
