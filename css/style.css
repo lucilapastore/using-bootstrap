@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+  line-height: 1;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+  background-color: #f4f5f6;
+}
+
+/* nav */
+
+.navbar-brand {
+  max-width: 396px;
+}
+
+.first-nav {
+  background-color: #f72210;
+  max-height: 95px;
+  max-width: 1310px;
+}
+
+.header-date {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.header-btn1 {
+  padding: 6px 12px;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.header-btn2 {
+  color: #f72210;
+  padding: 6px 12px;
+  font-size: 18px;
+  margin-bottom: 14px;
+  width: 128px;
+  height: 28px;
+}
+
+.header-btn1:hover,
+.header-btn2:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header-btn2:hover {
+  color: #f72210;
+}
+
+.header-bottom {
+  max-width: 1310px;
+  background-color: #fff;
+  padding: 15px 110px 15px 18px;
+  border-bottom: #f4f5f6 2px solid;
+  z-index: 1;
+  text-align: center;
+  height: 56px;
+}
+
+.item-header {
+  font-size: 21px;
+  line-height: 24px;
+  color: black;
+}
+
+.item-header:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f72210;
+}
+
+.form-row {
+  width: 60px;
+  height: 54px;
+}
+
+.first-search {
+  width: 55px;
+}
+
+/* main container */
+
+.main {
+  max-width: 1310px;
+  padding: 20px 30px 0 30px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* three main columns */
+
+.column1,
+.column2,
+.column3 {
+  box-sizing: border-box;
+}
+
+.column-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+/* cards */
+
+.title-first-card {
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 98%;
+  margin-bottom: 10px;
+}
+
+.category {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+.ubication {
+  bottom: 0;
+  left: 0;
+}
+
+.ubication-2 {
+  top: 157px;
+}
+
+.text-first-card {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* second column */
+
+.column-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title-card-2 {
+  font-size: 22px;
+  line-height: 24px;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 98%;
+  margin-bottom: 10px;
+}
+
+.texto-tarjeta2 {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* more stories column */
+
+.more-stories-title {
+  color: black;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.more-stories-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* gray container section */
+
+.gray-container-card {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.gray-container-card:hover {
+  cursor: pointer;
+}
+
+.gray-card-body {
+  padding: 15px 10px 20px 10px;
+}
+
+.gray-card-title {
+  font-family: serif;
+  font-size: 20px;
+  color: #272727;
+}
+
+.gray-card-text {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.category-badge:hover {
+  background-color: #272727;
+}
+
+/* third column */
+
+/* opinion column */
+
+.opinion-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.opinion-title a {
+  color: #000;
+}
+
+.latest-news-pic img {
+  padding-right: 15px;
+}
+
+.opinion-author {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 4px;
+}
+
+/* latest news */
+
+.latest-news-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.latest-news-text {
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+/* sponsored card */
+
+.sponsored-card {
+  margin-bottom: 30px;
+}
+
+/* jumbotron */
+
+.cont-jumbotron {
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 20px;
+}
+
+.title-jumbotron {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 19px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.button-text {
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.link-jumbotron {
+  color: #333;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+}
+
+.link-jumbo:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* in the magazine section */
+
+.size-16 {
+  font-size: 16px;
+}
+
+.gray-category {
+  font-size: 16px;
+  color: #f72210;
+  position: absolute;
+  top: 83%;
+}
+
+.gray-footer {
+  color: black;
+  font-size: 18px;
+}
+
+/* editor's pick */
+
+.editor-pick,
+.slideshows {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 19px;
+}
+
+.title-row {
+  color: #f72210;
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title-card {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.info {
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+/* featured slideshows */
+
+.sticker-number {
+  bottom: 0;
+  left: 0;
+}
+
+/* hovers */
+
+.title-first-card:hover,
+.title-card-2:hover,
+.more-stories-title:hover,
+.title-card:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+  color: #000;
+}
+
+.title-row:hover,
+.info:hover,
+.latest-news-text:hover,
+.opinion-title a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f72210;
+}
+
+/* bottom section */
+
+/* jumbotron */
+
+.suscribe-text {
+  font-size: 16px;
+  color: #f72210;
+}
+
+.title-jumbo-2 {
+  font-size: 24px;
+}
+
+.red-button {
+  background-color: #f72210;
+  font-size: 18px;
+}
+
+.red-button:hover {
+  cursor: pointer;
+}
+
+/* card */
+
+.bottom-card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+/* footer */
+
+.footer-logo {
+  margin: 0 15px 12px 0;
+}
+
+.copyright-bottom {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.social-media-footer {
+  margin-bottom: 12px;
+}
+
+.footer-link {
+  margin: 6px 10px 6px 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+@media screen and (max-width: 960px) {
+  .header-bottom {
+    display: hidden;
+  }
+}
