@@ -115,16 +115,6 @@ body {
   margin-bottom: 10px;
 }
 
-.title-first-card:hover,
-.title-card-2:hover,
-.more-stories-title:hover,
-.title-card:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
-  cursor: pointer;
-  color: #000;
-}
-
 .category {
   font-size: 17px;
   font-family: "Roboto Condensed", sans-serif;
@@ -345,6 +335,18 @@ body {
 .sticker-number {
   bottom: 0;
   left: 0;
+}
+
+/* hovers */
+
+.title-first-card:hover,
+.title-card-2:hover,
+.more-stories-title:hover,
+.title-card:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+  color: #000;
 }
 
 /* bottom section */
